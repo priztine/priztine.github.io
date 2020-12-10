@@ -1,0 +1,69 @@
+   <!doctype html>
+
+<html>
+
+<head>
+    
+<title>Socialoft - Contact Us</title>
+
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css"/>
+
+</head>
+
+<body>
+
+<header>
+   
+<h1>| Contact Us |</h1>
+
+<link rel="stylesheet" href="style.css"/>
+
+</header>
+
+<nav>
+
+    <ul>
+        <li><a href="index.html">Home Page</a> |</li>
+        <li><a href="clothing.html">Clothing</a> |</li>
+        <li><a href="accessories.html">Accessories</a> |</li>
+        <li><a href="footwear.html">Footwear</a> |</li>
+        <li><a href="gallery.html">Gallery</a> |</li>
+        <li><a href="aboutus.html">About Us</a> |</li>
+        <li><a href="contactus.html">Contact Us</a></li>   
+        </ul>
+ 
+ </nav>
+
+<main>
+    <div class="wrapper">
+        <h2>Contact Us</h2>
+        <div id='error_message'></div>
+     
+     <form id="myform" onsubmit="return validation()">
+            <div class="input-field">
+            <input type="text" id="name" placeholder="Name">
+        </div>
+
+        <div class="input-field">
+            <input type="text" id="email" placeholder="Email">
+        </div>
+         
+        <div class="input-field">
+            <input type="text" id="phone" placeholder="Phone">
+        </div>
+
+        <div class="input-field">
+            <textarea id="message" placeholder="message"></textarea>
+        </div>
+        <input type="submit" value="send message" class="btn">
+            
+</form>
+</div>  
+    
+</main>
+
+
+</body>
+
+</html>
